@@ -1,9 +1,19 @@
 # Project Setup Project
 
-this is normal text
-- bullet point
-- bullet point 2
 
+```shell
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -e ".[dev]"
+pre-commit install
 ```
-echo "hello world"
+
+## Running
+
+### For Dev
+
+```shell
+source .venv/bin/activate  # if not done already
+run
 ```
